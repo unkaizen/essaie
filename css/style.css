@@ -18,7 +18,7 @@ p {
   margin-bottom: 10px;
   color: azure;
 }
-.btn :hover p {
+p :hover {
   visibility: visible;
 }
 @media (max-width: 1000px) {
