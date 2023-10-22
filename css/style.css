@@ -1,0 +1,90 @@
+@import url("banner.css");
+
+Body {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+#page {
+  margin: auto;
+}
+Body {
+  font-family: Times, sherif;
+}
+p {
+  visibility: hidden;
+  font-weight: 100;
+  text-justify: justify;
+  font-size: 15px;
+  margin-bottom: 10px;
+  color: azure;
+}
+.btn :hover p {
+  visibility: visible;
+}
+@media (max-width: 1000px) {
+  #page {
+    width: auto;
+    margin: 0px auto;
+  }
+}
+.btn-grp {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.btn h3 {
+  text-decoration: underline;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 2px 2px;
+  border-radius: 5px;
+}
+.btn {
+  width: 250px;
+  border-radius: 10%;
+  margin: 10px auto;
+  margin-left: 20px;
+  margin-right: 20px;
+  flex-grow: 1;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+#btn1 {
+  background-image: url("1.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+}
+#btn2 {
+  background-image: url("2.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+}
+#btn3 {
+  background-image: url("3.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+}
+#btn4 {
+  background-image: url("4.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+}
+#btn5 {
+  background-image: url("5.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+}
+#btn6 {
+  background-image: url("6.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 100px;
+}
