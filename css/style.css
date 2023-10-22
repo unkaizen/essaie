@@ -11,7 +11,7 @@ Body {
   font-family: Times, sherif;
 }
 p {
-  visibility: hidden;
+  opacity: 0;
   font-weight: 100;
   text-justify: justify;
   font-size: 15px;
@@ -19,7 +19,7 @@ p {
   color: azure;
 }
 p :hover {
-  visibility: visible;
+  opacity:0.7;
 }
 @media (max-width: 1000px) {
   #page {
